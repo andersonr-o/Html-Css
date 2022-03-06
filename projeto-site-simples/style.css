@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightgreen;
+}
+
+h1{
+    text-align: center;
+}
+
+h1#h1dif{
+    font-size: medium;
+    margin-top: -550px;
+    text-align: left;
+    padding: 10px;
+}
+
+pre.memes   {
+    text-align: center;
+}
+
+a{
+    padding: 60px;
+    font: 25px normal;
+    margin-left: -100px;
+}
+
+iframe{
+    margin-left: -100px;
+}
+
+
+select{
+    margin-left: -55px;
+    margin-top: -550px;
+    background-color: wheat;
+}
+
+input{
+    margin-left: -55px;
+    margin-top: -550px;
+}
+
+input#votou{
+    margin-top: 0px;
+    margin-left: 8px;
+}
+
+video{
+    width: 300px;
+    height: 300px;
+    margin-top: auto;
+    margin-left: -100px;
+    padding: 20px;
+    font: 25px normal;
+}

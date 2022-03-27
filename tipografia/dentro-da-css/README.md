@@ -28,21 +28,22 @@ Há outras, mas, entre todas, a em é a principal. Isso porque trabalha com a po
 Isso porque a W3C estabelece padrões para a criação e interpretação de conteúdos na web. Esse órgão recomenda o px como medida absoluta e o em como medida relativa para font-size.
 
 ## Peso
-Usa-se o ‘‘‘font-weight: x;‘’‘.<br><br>
+Usa-se o ```font-weight: x;```.<br><br>
 Valor de peso:<br><br>
 Lighter, normal, bold, bolder ou valor que vai de 100-900.<br><br>
 Esse valor de 100 a 900 existe porque algumas fontes não têm variações de peso. Por exemplo: Arial, Times New Roman e Verdana. Sendo assim, a variação de 100 a 900 suprem essa carência.<br><br>
 
 ## Estilo
-Há dois: itálico e normal. Na CSS, são respresentados por ‘‘‘font-style: x;‘‘‘.<br><br>
+Há dois: itálico e normal. Na CSS, são respresentados por ```font-style: x;```.<br><br>
 * Sublinhado
-Usa-se o ‘‘‘text decoration: underline;‘‘‘<br><br>
+Usa-se o ```text decoration: underline;```<br><br>
 O normal nem precisa ser dito.<br><br>
-** Se for usar font-weight, font-style e text-decoration tudo junto, prestar atenção se a família da fonte as suporta. **
+**Se for usar font-weight, font-style e text-decoration tudo junto, prestar atenção se a família da fonte as suporta.**
 
 ## Shorthand Font
 Condensa as quatro fonts (style, weight, size e family).<br>
-Para funcionar usamos ela assim: ’‘‘font: x, x, x, x; ’‘‘
-Para o shorthand funcionar, devemos seguir essa mesma ordem da linha de cima: font style &rightarrow; font-weight &rightarrow; font-size &rightarrow; font-family.<br><br>
+Para funcionar usamos ela assim: ```font: x, x, x, x;```
+Para o shorthand funcionar, devemos seguir essa mesma ordem da linha de cima:<br>
+font style &rightarrow; font-weight &rightarrow; font-size &rightarrow; font-family.<br><br>
 Por exemplo: <br><br>
-‘‘‘font: italic bolder 3em 'work sans'‘‘‘
+```font: italic bolder 3em 'work sans'```

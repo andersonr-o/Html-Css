@@ -1,7 +1,7 @@
 # Dentro da CSS
  ## Famílias das Fontes
 Trata-se de um conjunto de fontes e usadas na CSS.<br>
-Dentro do programa, ela é representada da seguinte maneira: ‘‘‘font-family: x, ‘y y’,  z‘‘‘. Se o nome da fonte é composto por duas palavras, usamos ele entre aspas.
+Dentro do programa, ela é representada da seguinte maneira: ```font-family: x, ‘y y’,  z```. Se o nome da fonte é composto por duas palavras, usamos ele entre aspas.
 
 ## Compatibilidade das Fontes
 Em computadores, celulares e tablets geralmente a maioria das fontes são compatíveis, mas em TVs, por exemplo, pode não ter Arial ou Helvética ou Verdana, e vice-versa com todas as fontes.<br><br>

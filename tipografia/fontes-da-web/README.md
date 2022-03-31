@@ -10,7 +10,7 @@ No Google Fonts há bastante filtros e mecanismos de busca para aprofundação n
  Quando a fonte não for econtrada no Google Fonts, basta procurar em outro lugar. O site [Dafont](https://www.dafont.com/pt/) também é muito bom, mas, geralmente, o cliente te passará o arquivo da fonte desejada.<br><br>
  **Na hora de escolher uma fonte, verifique se ela suporta todos os glifos (A, a, ã, á, à, ç etc.)**
 ## Dentro da CSS
- Coloque a regra: ```@font-face{```<br>
+ Coloque a regra: ```@font-face{``` <br>
                        ```font-family:'nome que quiser';```<br>
                        ```src: url('caminho da fonte baixada') format('formato da fonte');```<br>
                        ```}```<br><br>

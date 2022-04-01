@@ -26,4 +26,7 @@
     **Sempre que usamos max-width ou min-width, colocamos uma margem de 50px para mais no tamanho. Isso porque devemos considerar a largura da barra de rolagem também.**
    ## Como testar isso em um único dispositivo.
    Se estiver usando um laptop com Windows e Chrome, abra o "Alternar abas de ferramenta do dispositivo" dentro de inspecionar, ou use o atalho de teclado F12 + Ctrl + Shift + M. Lá terá a opção de selecionar alguns celulares e de ajustar a largura de visualização manualmente.<br><br>
+   Vídeo exemplo do que acontece dentro do inspecionar:<br>
+https://user-images.githubusercontent.com/97858145/161346185-c9d8cd06-1755-4e1d-a028-87b71ece3a23.mp4
+
    Outra forma mais simples é deixar o navegador em picture in picture e ir aumentando e diminuindo o seu lado, assim as imagens serão atualizadas conforme essa variação.<br>

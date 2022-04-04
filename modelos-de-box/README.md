@@ -1,18 +1,21 @@
 # Entendendo a anatomia das caixas
  As caixas em HTML são os espaços que os textos são inseridos.<br>
  Elas são divididas por camadas, então imagine:<br>
- Uma palavra em HTML está cercada por altura (height) e largura (width). Essa é a primeira camada.<br><br>
- Altura e largura estão formando uma borda (border). Essa é a segunda.<br><br>
- O espaçamento da borda para dentro se chama padding. Essa é a terceira camada.<br><br>
- O margin é como se fosse o padding externo; fica da borda para fora<br>
- É a última camada e se refere ao espaço externo à caixa de texto.<br><br>
- Por exemplo: se criamos duas box de texto, elas ficarão grudadas uma na outra. O margin espaça elas.<br><br>
+ * Uma palavra em HTML está cercada por **altura (height)** e **largura (width)**. Essa é a primeira camada;
+ * Altura e largura estão formando uma **borda (border)**. Essa é a segunda;
+ * O espaçamento da borda para dentro se chama **padding**. Essa é a terceira camada;
+ * O **margin** é como se fosse o padding externo; fica da borda para fora. É a última camada e se refere ao espaço externo à caixa de texto. Por exemplo: se criamos duas box de texto, elas ficarão grudadas uma na outra. O margin espaça elas.<br><br>
+
  Mas se quisermos algo entre a borda e o margin, isso se chama outline e sempre fica fora da borda e dentro da margin. É útil para quando queremos criar um tracejado em volta do tracejado da borda.<br><br>
  Ficou confuso? Na última seção, em "Verificando a anatomia das caixas:", ficará mais claro de como visualizar melhor o que foi descrito acima.<br><br>
+ Veja também uma imagem que ilustra tudo o que foi dito acima e é uma representação da sequenciação descrita abaixo da imagem:<br><br>
+ ![box-picture](https://user-images.githubusercontent.com/97858145/161633585-43142cbf-d70b-4ebb-8147-cf38a9d20214.png)<br><br>
+ 
+ **O outline não aparece na caixa do inspecionar.**<br><br>
 
  **Sequenciação:**<br><br>
 
- texto < height and width < padding < border < outline < margin.
+ Texto dentro da caixa < Height and Width < Padding < Border < Outline < Margin.
  
  ## Na CSS:
 
@@ -92,7 +95,13 @@
    As mais populares são: &lt;span&gt;, &lt;a&gt;, &lt;code&gt;, &lt;label&gt;, &lt;button&gt;, &lt;strong&gt;, &lt;em&gt;, &lt;small&gt;, &lt;sup&gt;, &lt;sub&gt; e &lt;input&gt;
 
 # Verificando a anatomia das caixas:
- Com o nosso código aberto dentro do navegador, iremos abrir o inspecionar e clicar na tag que queremos destrinchar.<br>
+ Como o nosso código aberto dentro do navegador, iremos abrir o inspecionar e clicar na tag que queremos destrinchar.<br>
  Ser-nos-á mostrado todas as configurações de CSS daquela tag.<br><br>
  Ainda no inspecionar, conseguimos alterar a CSS e ver em tempo real as alterações que estão sendo feitas, e nada disso alterará o código principal, basta dar um F5 para retornar às configurações primárias.<br><br>
- **O outline não aparece na caixa do inspecionar.**
+ Vejamos melhor o que nos é mostrado através do vídeo abaixo:
+ 
+
+https://user-images.githubusercontent.com/97858145/161633909-0af1d506-92e6-4eb9-b306-1cf9f9cd9790.mp4
+
+
+ **É importante ressaltar que o outline não aparece na caixa do inspecionar.**

@@ -82,6 +82,43 @@
    Exemplo com base no outline acima:<br><br>
 
    ```outline: 5px dashed salmon;```
+   
+   ### Sombra nas caixas
+   É representado, na CSS, por ```box-shadow: Xpx Xpx Xpx Xpx color;```<br><br>
+   Ele cria uma sombra em volta do corpo da caixa, geralmente na parte de fora, mas também conseguimos fazer isso na parte de dentro. O código ficaria assim: ```box-shadow: inset Xpx Xpx Xpx Xpx color;```<br><br>
+   Geralmente, é aconselhável que se use a cor black, pois sombra é a ausência de luz, e nada melhor que a cor preta para isso.<br>
+   Aí só ajustamos o alpha do preto para não deixar a sombra tão forte e ela ficará bonita.
+   #### Significado da sua composição
+   A configuração básica envolve somente três medidas e uma cor: ```box-shadow: Xpx Xpx Xpx color;```<br><br>
+   Aonde a primeira se refere ao deslocamento horizontal da sombra;<br>
+   A segunda ao deslocamento vertical;<br>
+   A terceira é sobre o seu espalhamento (quanto mais espalhado, mais desfocada a sombra);<br>
+   E a última, que vimos no código acima, refere-se à extensão (qunto maior a extensão, o quadrado da sombra ficará maior em todos os lados sem perder o foco).<br><br>
+   **Sequenciação:**<br><br>
+    (inset) Eixo X > Eixo Y > Disparamento > (Extensão) > Color.
+   #### Dentro do Devtools
+   Dentro da ferramenta de inspecionar, conseguimos testar uma box-shadow independente e depois copiar o seu código e colar no nosso editor.<br><br>
+   Veja a imagem abaixo para entender melhor:<br><br>
+   Escolha a tag que recebeu a box-shadow na CSS e clique no quadrado cercado por uma edição de cor azul da imagem para aparecer o painel de teste.<br>
+   ![box-shadow-devtools-copy](https://user-images.githubusercontent.com/97858145/161830051-dda92107-bc93-4e53-bfec-e47bf1ef4dc7.png)
+
+  ### Border-radius
+  Ou raio da borda. Refere-se à curvatura que há nas têmporas de uma box. Sendo assim, alterá-las é deixar um retângulo com bordas e não com pontas.<br><br>
+  Por exemplo:<br><br>
+  ```border-radius: 10px;```<br><br>
+  O border-radius acima é a mesma coisa que:<br>
+  ```border-top-left-radius: 10px;```<br>
+  ```border-top-right-radius: 10px;```<br>
+  ```border-bottom-right-radius: 10px;```<br>
+  ```border-bottom-left-radius: 10px;```<br><br>
+  Cada um destes acima se refere a uma extremidade da box, como os seus próprios nomes dizem. É um shorthand, praticamente.<br>
+  Se quiséssemos, poderíamos alterá-las individualmente:<br>
+  ```border-radius: 10px 20px 30px 40px;```<br><br>
+  Para criar um efeito diagonal:<br>
+  ```border-radius: 20px 0px;```
+  Assim, uma diagonal (nesse caso seria a top left e a bottom rigth, pois gira no sentido horário) terá bordas e a outra ficará pontiaguda, deixando um efeito bonito.<br><br>
+  Para criar uma bola com border-radius basta usar:<br>
+  ```border-radius: 50%;```
 
  ## Tipos de box:
   Todas as caixas possuem a sequenciação descrita acima, mas elas ainda se dividem em duas.

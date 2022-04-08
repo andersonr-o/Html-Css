@@ -132,7 +132,7 @@
    As mais populares são: &lt;span&gt;, &lt;a&gt;, &lt;code&gt;, &lt;label&gt;, &lt;button&gt;, &lt;strong&gt;, &lt;em&gt;, &lt;small&gt;, &lt;sup&gt;, &lt;sub&gt; e &lt;input&gt;
 
 # Verificando a anatomia das caixas:
- Como o nosso código aberto dentro do navegador, iremos abrir o inspecionar e clicar na tag que queremos destrinchar.<br>
+ Com o nosso código aberto dentro do navegador, iremos abrir o inspecionar e clicar na tag que queremos destrinchar.<br>
  Ser-nos-á mostrado todas as configurações de CSS daquela tag.<br><br>
  Ainda no inspecionar, conseguimos alterar a CSS e ver em tempo real as alterações que estão sendo feitas, e nada disso alterará o código principal, basta dar um F5 para retornar às configurações primárias.<br><br>
  Vejamos melhor o que nos é mostrado através do vídeo abaixo:

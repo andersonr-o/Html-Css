@@ -1,7 +1,3 @@
-## Link para Acesso ao Site
-
-[#]()
-
 # Centralização Vertical de Caixas
 
 Para conseguirmos fazer isso, precisamos de uma caixa pai (container) e uma caixa filho (conteúdo).<br><br>

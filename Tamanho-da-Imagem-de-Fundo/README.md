@@ -1,7 +1,3 @@
-## Link para Acesso ao Site:
-
-[Site ressaltado o bgposition]()
-
 # Mudando o Tamanho da Imagem de Fundo
 
 ## Considerações Importantes

@@ -20,4 +20,4 @@ Tabela larga na vertical:
 ``overflow-y: auto;``<br>
 ``}``
 
-Minimize a tela da [tabela do site]() e teste. Uma barra de scroll será criada para a tabela, mas o site continuará normal.
+Minimize a tela da [tabela do site](https://andersonr-o.github.io/Html-Css/Tabelas-Responsivas/tabela-responsiva.html) e teste. Uma barra de scroll será criada para a tabela, mas o site continuará normal.

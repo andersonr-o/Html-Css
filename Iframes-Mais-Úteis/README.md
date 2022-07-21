@@ -6,4 +6,4 @@ Com os iframes conseguimos colocar vídeos, mapas do Google Maps e do Waze em no
 
 Todas elas têm a opção de incorporar iframes na aba compartilhar de seus devidos sites e podem ser muito úteis dependendo das necessidades do criador do site.
 
-Usei todas as quatro formas de iframes no [site])() anexado, veja como é simples acessando o código.
+Usei todas as quatro formas de iframes no [site])(https://andersonr-o.github.io/Html-Css/Iframes-Mais-%C3%9Ateis/iframe007.html) anexado, veja como é simples acessando o código.

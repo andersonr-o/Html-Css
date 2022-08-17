@@ -1,0 +1,31 @@
+## Link:
+
+[Site do formulário com parâmetros]()
+
+# Parâmetros em Inputs
+
+Os inputs são vastos e possuem muitos parâmetros para que funcionem corretamente. Veja alguns:
+
+- Required
+
+O atributo ``required`` obriga o usuário a preencher o campo para prosseguir. Só a palavra "required" já basta para funcioná-lo.
+
+- Minlength & Maxlength
+
+Além do required, há também o minlength e o maxlength, que definem um número mínimo e máximo, respectivamente, de caracteres obrigatórios em uma caixa.
+
+Assim como os outros, basta usar ``minlength="x"``
+
+- Size
+
+Ele define o tamanho da caixa em caracteres. ``size="10"`` significa que a caixa possuirá espaço para 10 caracteres (isso não quer dizer que não aceite mais que isso.)
+
+- Placeholder
+
+É algo que fica inscrito na caixa antes do usuário digitar qualquer coisa. É usado para guiá-lo
+
+- Autocomplete
+
+Em input, o autocomplete é para que sugestões erradas não ocorram (senha sendo sugerida em caixas de texto, por exemplo).
+
+Há diversos tipos de autocomplete em inputs, justamente para diferenciar todos os elementos.

@@ -1,33 +1,29 @@
 ## Link:
 
-[Site do formulário demonstrativo](https://andersonr-o.github.io/Html-Css/Formul%C3%A1rios/form001.html)
+[Site do formulário](https://andersonr-o.github.io/Html-Css/Formul%C3%A1rios/form001.html)
 
-# Formulários
+# Métodos de Envio de Formulários
 
-Para criarmos formulários com HTML, usamos a tag &lt;form&gt;
+Há dois métodos para que os dados dos formulários sejam enviados à outro lugar: o GET e o POST.
 
-A tag &lt;form&gt; possui alguns parâmetros, como o autocomplete="on/off", que serve para deixarmos habilitada ou não a função de sugestão de texto. Por padrão ele é "on". (igual quando digitamos metade de uma palavra e aparece ela inteira embaixo para clicarmos e escrever ela sem digitar.)
+Por padrão, o HTML deixa o método GET em execução.
 
-Outro parâmetro é o action="". O action se refere para onde os nossos dados irão depois de enviarmos. Podemos fazer um script em alguma linguagem backend para tratarmos esses dados.
+Se quisermos mudar isso, a tag &lt;form&gt; tem o parâmetro ``method=""``, aonde isso é definido.
 
-## Inputs
+## Melhor usar GET ou POST?
 
-Uma parte muito importante dos formulários é o input. Basicamente, o input cria uma caixa de texto de senha, email, nome, número, botão de enviar, etc.
+No método GET , as informações aparecem na URL depois de enviadas, como na imagem abaixo:
 
-Na imagem abaixo, por exemplo, usamos três inputs: dois para caixas de texto (type="text") e um para o botão de enviar (type="submit").
+![get-form](https://user-images.githubusercontent.com/97858145/185234646-0e5401b9-1322-4aab-a2e7-08b08f480913.png)
 
-![Captura de tela de 2022-08-17 15-40-38](https://user-images.githubusercontent.com/97858145/185217788-3d092362-487f-453a-ac93-317e8ae2800b.png)
+Já no método POST isso não acontece, mas ainda aparece no inspecionar, ou seja, nenhum é garantia de segurança. Para isso, teríamos que usar o protocolo HTTPS.
 
- A sintaxe de um input depende do seu tipo. O do tipo texto é assim:
+**  Quando usar um ou  o outro então?**
 
- ``<input type="text" name="x" id="x">``<br>
+Basicamente, quando as informações não forem de natureza sensível (endereços, senhas, etc.), podemos usar o GET.
 
- O name e o id serve para fazer referência a outras linguagens na DOM. Name em PHP e id em JavaScript, por exemplo.
+O GET permite compartilhamento de URL com tamanho de até 3000 bytes, o que é aproximadamente 3000 caracteres.
 
- Já a sintaxe do input de tipo botão de enviar é assim:
+Se formos tratar dados de natureza sensível ou imagens (pois possuem tamanhos mais elevados), usamos o POST.
 
- ``<input type="submit" value="Enviar">``<br>
-
- Só usamos o value em casos assim, pois não há dados a serem tratados, mas só há um botão que possuí uma única funcionalidade. O value não especifica a sua função, mas sim o que terá escrito dentro do botão.
-
-
+Não há nenhuma diferença de velocidade perceptível entre os dois métodos atualmente, então usar o GET ou o POST depende do desenvolvedor e da natureza dos dados.

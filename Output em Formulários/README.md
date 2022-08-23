@@ -1,8 +1,8 @@
 ## Links para os Sites:
 
-[Site com Output de soma]()
-[Site com Output de range]()
-[Site que calcula idade]()
+[Site com Output de soma](https://andersonr-o.github.io/Html-Css/Output%20em%20Formul%C3%A1rios/form008.html);<br>
+[Site com Output de range](https://andersonr-o.github.io/Html-Css/Output%20em%20Formul%C3%A1rios/form009.html);<br>
+[Site que calcula idade](https://andersonr-o.github.io/Html-Css/Output%20em%20Formul%C3%A1rios/form010.html)
 
 # Output em Formulários
 
